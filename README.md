@@ -4,7 +4,7 @@ This repository contains the source code for a simple calculator application bui
 
 ## 🚀 Demo
 
-You can view and interact with the live calculator here: [Calculator Demo]([https://your-demo-link.com](https://akhil-stopwatch.netlify.app/))
+You can view and interact with the live calculator here: https://your-demo-link.com](https://akhil-stopwatch.netlify.app/
 
 
 ## 📂 Features
