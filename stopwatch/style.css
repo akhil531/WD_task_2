@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #F7C5CC!important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#container {
+  color: #CC313D;
+}
+
+.digit {
+  font-size: 150px;
+  font-family: "digital-7";
+}
+
+.txt {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 7px 25px;
+  font-size: 15px;
+  margin: 4px 10px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#time {
+  text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+  #time .digit {
+    font-size: 4.3rem;
+  }
+
+  #time .txt {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #time .digit {
+    font-size: 2.6rem;
+  }
+
+  #time .txt {
+    font-size: 1.2rem;
+  }
+}
+
+#start {
+  color: black;
+}
+
+#start:hover {
+  color: #000000;
+  background: white;
+  box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
+
+#reset {
+  color: black;
+}
+
+#reset:hover {
+  color: #000000;
+  background: white;
+  box-shadow:  0 0 10px white, 0 0 40px white, 0 0 80px white;;
+}
+
+#lap {
+  color: black;
+}
+
+#lap:hover {
+  color: #000000;
+  background: white;
+  box-shadow:  0 0 10px white, 0 0 40px white, 0 0 80px white;;
+}
+
+#clearlap {
+  color: black;
+}
+
+#clearlap:hover {
+  color: #000000;
+  background: white;
+  box-shadow:  0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
